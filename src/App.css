@@ -1,0 +1,40 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-header {
+  background-color: #89B0AE;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+ 
+}
+
+.navLinks{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.recipeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipeCard {
+  border: 2px solid black;
+  margin: 2%;
+
+}
+
+.instruction {
+  line-height: 1.5;
+}
+
